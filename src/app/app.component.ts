@@ -27,8 +27,4 @@ export class AppComponent implements OnInit {
     this.meetupEvents.push(...events);
   }
 
-  onClickEvent(clickedEvent: MeetupEvent) {
-    alert(clickedEvent.name);
-  }
-
 }

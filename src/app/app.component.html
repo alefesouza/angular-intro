@@ -3,6 +3,6 @@
   <span>{{ counter }}</span>
 
   <div *ngFor="let meetupEvent of meetupEvents">
-    <app-evento-de-meetup [evento]="meetupEvent" (click)="onClickEvent(meetupEvent)"></app-evento-de-meetup>
+    <app-evento-de-meetup [evento]="meetupEvent"></app-evento-de-meetup>
   </div>
 </div>

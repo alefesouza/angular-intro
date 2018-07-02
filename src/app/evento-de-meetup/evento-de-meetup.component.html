@@ -1,2 +1,4 @@
 <h2>{{ evento.name }}</h2>
 <div class="location">{{ evento.venue.name }}</div>
+<button (click)="showDescription = !showDescription">Exibir descrição</button>
+<div *ngIf="showDescription" [innerHTML]="evento.description"></div>
